@@ -88,28 +88,33 @@
             // 
             // valider
             // 
+            this.valider.BackColor = System.Drawing.Color.DarkRed;
+            this.valider.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.valider.Location = new System.Drawing.Point(563, 32);
             this.valider.Name = "valider";
             this.valider.Size = new System.Drawing.Size(99, 43);
             this.valider.TabIndex = 6;
             this.valider.Text = "valider";
-            this.valider.UseVisualStyleBackColor = true;
+            this.valider.UseVisualStyleBackColor = false;
             this.valider.Click += new System.EventHandler(this.button1_Click);
             // 
             // question
             // 
+            this.question.BackColor = System.Drawing.Color.DarkRed;
+            this.question.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.question.Location = new System.Drawing.Point(563, 95);
             this.question.Name = "question";
             this.question.Size = new System.Drawing.Size(99, 45);
             this.question.TabIndex = 7;
             this.question.Text = "question";
-            this.question.UseVisualStyleBackColor = true;
+            this.question.UseVisualStyleBackColor = false;
             this.question.Click += new System.EventHandler(this.question_Click);
             // 
             // examen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(749, 450);
             this.Controls.Add(this.question);
             this.Controls.Add(this.valider);
@@ -120,7 +125,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.exam);
             this.Name = "examen";
-            this.Text = "Form1";
+            this.Text = "exam";
+            this.Load += new System.EventHandler(this.examen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

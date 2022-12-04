@@ -36,5 +36,10 @@ namespace examen
             question QUES = new question();
             QUES.Show();
         }
+
+        private void examen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

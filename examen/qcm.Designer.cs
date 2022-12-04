@@ -95,6 +95,7 @@
             this.ajouter.TabIndex = 6;
             this.ajouter.Text = "ajouter";
             this.ajouter.UseVisualStyleBackColor = true;
+            this.ajouter.Click += new System.EventHandler(this.ajouter_Click);
             // 
             // modifier
             // 
@@ -104,6 +105,7 @@
             this.modifier.TabIndex = 7;
             this.modifier.Text = "modifier";
             this.modifier.UseVisualStyleBackColor = true;
+            this.modifier.Click += new System.EventHandler(this.modifier_Click);
             // 
             // supprimer
             // 
@@ -113,6 +115,7 @@
             this.supprimer.TabIndex = 8;
             this.supprimer.Text = "supprimer";
             this.supprimer.UseVisualStyleBackColor = true;
+            this.supprimer.Click += new System.EventHandler(this.supprimer_Click);
             // 
             // qcm
             // 
